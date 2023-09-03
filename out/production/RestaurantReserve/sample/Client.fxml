@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="362.0" prefWidth="696.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ClientController">
+   <children>
+      <Button fx:id="button2" layoutX="290.0" layoutY="265.0" mnemonicParsing="false" onMousePressed="#buttonPressed" prefHeight="33.0" prefWidth="95.0" text="Logout" textFill="#5100ff">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.77" specularConstant="1.35" specularExponent="34.42" surfaceScale="2.78">
+               <bumpInput>
+                  <Shadow height="38.79" radius="12.965" width="15.07" />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" elevation="40.82">
+                     <color>
+                        <Color red="0.6578947305679321" green="0.7894737124443054" blue="0.7478070259094238" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect></Button>
+      <TextField fx:id="textField" layoutX="337.0" layoutY="72.0" prefHeight="25.0" prefWidth="32.0" />
+      <CheckBox fx:id="checkBox" layoutX="248.0" layoutY="126.0" mnemonicParsing="false" text="Smoking" textFill="#070707">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font></CheckBox>
+      <Label fx:id="labels" layoutX="262.0" layoutY="200.0" />
+      <Button layoutX="120.0" layoutY="267.0" mnemonicParsing="false" onMousePressed="#check" text="Check" textFill="#0c0fbf">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.19" specularConstant="0.0" specularExponent="12.09" surfaceScale="5.34">
+               <bumpInput>
+                  <Shadow height="29.65" radius="9.8775" width="11.86" />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="0.0" elevation="49.19">
+                     <color>
+                        <Color red="0.8287037014961243" green="0.9172067642211914" blue="1.0" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Label layoutX="37.0" layoutY="59.0" prefHeight="51.0" prefWidth="224.0" text="Enter number of seats:" textFill="#b10ef0">
+         <font>
+            <Font name="Algerian" size="17.0" />
+         </font></Label>
+      <Button alignment="TOP_RIGHT" layoutX="411.0" layoutY="-3.0" mnemonicParsing="false" prefHeight="314.0" prefWidth="364.0" text="Button">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/E:/RestaurantReserve/seats.jpg" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+   </children>
+   <effect>
+      <InnerShadow choke="0.2" height="80.31" radius="50.7725" width="124.78">
+         <color>
+            <Color red="0.40789473056793213" green="0.007553606294095516" blue="0.007553606294095516" />
+         </color>
+      </InnerShadow>
+   </effect>
+</AnchorPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="281.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DisplayOrder">
+   <children>
+      <Button focusTraversable="false" layoutX="226.0" layoutY="203.0" mnemonicParsing="false" onMousePressed="#newPressed" prefHeight="55.0" prefWidth="126.0" text="New order" textFill="#0500ff">
+         <effect>
+            <Lighting diffuseConstant="1.07" specularConstant="1.32" specularExponent="26.98" surfaceScale="3.01">
+               <light>
+                  <Light.Distant azimuth="32.44" elevation="40.81">
+                     <color>
+                        <Color red="1.0" green="0.75" />
+                     </color>
+                  </Light.Distant>
+               </light>
+               <bumpInput>
+                  <Shadow height="18.03" radius="13.705" width="38.79" />
+               </bumpInput>
+            </Lighting>
+         </effect></Button>
+      <Button focusTraversable="false" layoutX="530.0" layoutY="212.0" mnemonicParsing="false" onMousePressed="#showOrder" prefHeight="55.0" prefWidth="113.0" text="See order" textFill="#2c00cd">
+         <effect>
+            <Lighting diffuseConstant="1.04" specularConstant="2.0" specularExponent="40.0" surfaceScale="2.2">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="0.9342105388641357" green="0.7125517725944519" blue="0.047575537115335464" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Label alignment="TOP_CENTER" layoutX="189.0" layoutY="75.0" prefHeight="66.0" prefWidth="453.0" text=":) welcome to our restaurant :) " textFill="RED" underline="true">
+         <font>
+            <Font name="Bernard MT Condensed" size="32.0" />
+         </font>
+         <effect>
+            <DropShadow radius="14.4475" spread="0.44" width="38.79">
+               <color>
+                  <Color red="0.9342105388641357" green="0.6175448894500732" blue="0.1081262156367302" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Button layoutX="416.0" layoutY="295.0" mnemonicParsing="false" onMousePressed="#buttonPressed" text="Logout" />
+   </children>
+   <effect>
+      <InnerShadow blurType="GAUSSIAN" choke="0.23" height="62.51" radius="35.945" width="83.27">
+         <color>
+            <Color red="0.3552631437778473" green="0.20230263471603394" blue="0.20230263471603394" />
+         </color>
+      </InnerShadow>
+   </effect>
+</AnchorPane>

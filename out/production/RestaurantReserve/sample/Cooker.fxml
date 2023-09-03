@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CookerController">
+   <children>
+      <ListView fx:id="listView" layoutX="32.0" layoutY="62.0" prefHeight="219.0" prefWidth="550.0">
+         <effect>
+            <DropShadow height="50.65" radius="33.72" spread="0.17" width="86.23" />
+         </effect></ListView>
+      <Button layoutX="483.0" layoutY="344.0" mnemonicParsing="false" onMousePressed="#buttonPressed" prefHeight="25.0" prefWidth="69.0" text="logout" textFill="#3617e5">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="159.0" layoutY="22.0" prefHeight="31.0" prefWidth="287.0" text="welcome to Cooker dashboard" textFill="#ff00b7">
+         <font>
+            <Font name="Script MT Bold" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow height="44.72" radius="21.119999999999997" spread="0.28" width="41.76" />
+         </effect></Label>
+   </children>
+   <effect>
+      <InnerShadow choke="0.29" height="86.24" radius="41.8775" width="83.27" />
+   </effect>
+</AnchorPane>

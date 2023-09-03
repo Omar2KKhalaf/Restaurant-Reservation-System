@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OrderController">
+    <children>
+        <ComboBox fx:id="comboBox" focusTraversable="false" layoutX="34.0" layoutY="38.0" prefWidth="150.0" promptText="Main Courses : ">
+         <effect>
+            <DropShadow height="92.17" radius="47.067499999999995" width="98.1">
+               <input>
+                  <InnerShadow height="49.17" radius="25.9375" width="56.58">
+                     <color>
+                        <Color red="0.43650001287460327" green="0.8024386167526245" blue="0.9700000286102295" />
+                     </color>
+                  </InnerShadow>
+               </input>
+            </DropShadow>
+         </effect></ComboBox>
+        <ComboBox fx:id="combo3" focusTraversable="false" layoutX="436.0" layoutY="38.0" prefWidth="150.0" promptText="Deserts : ">
+         <effect>
+            <DropShadow height="71.41" radius="55.22" width="151.47">
+               <input>
+                  <InnerShadow choke="0.16" height="32.86" radius="20.377499999999998" width="50.65">
+                     <color>
+                        <Color red="0.9210526347160339" green="0.23452728986740112" blue="0.5549057722091675" />
+                     </color>
+                  </InnerShadow>
+               </input>
+               <color>
+                  <Color red="0.1315789520740509" green="0.12853313982486725" blue="0.13051290810108185" />
+               </color>
+            </DropShadow>
+         </effect></ComboBox>
+        <ComboBox fx:id="combo2" focusTraversable="false" layoutX="241.0" layoutY="38.0" prefWidth="150.0" promptText="Appetizers : ">
+         <effect>
+            <DropShadow height="101.06" radius="46.322500000000005" width="86.23">
+               <input>
+                  <InnerShadow choke="0.16" height="41.635" radius="18.06375" width="32.62">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.40954992175102234" blue="0.0835999995470047" />
+                     </color>
+                  </InnerShadow>
+               </input>
+               <color>
+                  <Color red="0.02631578966975212" green="0.02626299485564232" blue="0.024731969460844994" />
+               </color>
+            </DropShadow>
+         </effect></ComboBox>
+        <Label fx:id="label" layoutX="193.0" layoutY="140.0" />
+        <Label layoutX="44.0" layoutY="133.0" text="Price of dish :">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+        <Label fx:id="labelName" layoutX="44.0" layoutY="102.0" />
+        <Button fx:id="button2" focusTraversable="false" layoutX="560.0" layoutY="319.0" mnemonicParsing="false" onMousePressed="#buttonPressed" text="Logout" textFill="#370bc6">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+        <Label fx:id="labels" layoutX="92.0" layoutY="275.0" />
+        <Button focusTraversable="false" layoutX="403.0" layoutY="319.0" mnemonicParsing="false" onMousePressed="#save" prefHeight="38.0" prefWidth="92.0" text="Save" textFill="#ff5100">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Button layoutX="27.0" layoutY="207.0" mnemonicParsing="false" prefHeight="225.0" prefWidth="277.0" text="Button">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/E:/RestaurantReserve/delicious%20food.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+    </children>
+   <effect>
+      <InnerShadow choke="0.29" height="71.41" radius="32.98" width="62.51">
+         <color>
+            <Color red="0.19736842811107635" green="0.0036549707874655724" blue="0.18445418775081635" />
+         </color>
+      </InnerShadow>
+   </effect>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ManagerController">
+   <children>
+      <Button alignment="BOTTOM_RIGHT" layoutX="609.0" layoutY="364.0" mnemonicParsing="false" onMousePressed="#buttonPressed" prefHeight="32.0" prefWidth="97.0" text="Logout" textFill="#1805e8">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></Button>
+      <ListView fx:id="listView" layoutX="284.0" layoutY="82.0" prefHeight="236.0" prefWidth="480.0">
+         <effect>
+            <DropShadow height="71.41" radius="38.91" spread="0.05" width="86.23" />
+         </effect></ListView>
+      <Label layoutX="3.0" layoutY="201.0" prefHeight="158.0" prefWidth="188.0" text="Total Day Amount:">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <Label fx:id="labels" layoutX="154.0" layoutY="313.0" />
+      <Label alignment="CENTER" layoutX="143.0" layoutY="13.0" prefHeight="50.0" prefWidth="349.0" text="welcome to Manager Dashboard" textFill="#650e06">
+         <font>
+            <Font name="Script MT Bold" size="26.0" />
+         </font>
+         <effect>
+            <DropShadow height="104.02" radius="30.695" spread="0.38" width="20.76" />
+         </effect>
+      </Label>
+   </children>
+   <effect>
+      <InnerShadow choke="0.05" height="68.44" radius="35.945" width="77.34" />
+   </effect>
+</AnchorPane>

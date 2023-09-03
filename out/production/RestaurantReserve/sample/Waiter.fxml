@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WaiterController">
+   <children>
+      <ListView fx:id="listView" layoutX="29.0" layoutY="98.0" prefHeight="235.0" prefWidth="542.0">
+         <effect>
+            <DropShadow height="18.03" radius="27.79" spread="0.22" width="95.13" />
+         </effect></ListView>
+      <Button layoutX="508.0" layoutY="349.0" mnemonicParsing="false" onMousePressed="#buttonPressed" text="logout" textFill="#2322c7">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="193.0" layoutY="22.0" prefHeight="31.0" prefWidth="274.0" text="welcome to Waiter Dashboard" textFill="#ff8400">
+         <font>
+            <Font name="Script MT Bold" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow height="44.72" radius="27.0475" spread="0.26" width="65.47" />
+         </effect></Label>
+   </children>
+   <effect>
+      <DropShadow radius="45.58" spread="0.52" width="163.32">
+         <input>
+            <InnerShadow choke="0.12" height="77.34" radius="32.9825" width="56.59" />
+         </input>
+      </DropShadow>
+   </effect>
+</AnchorPane>

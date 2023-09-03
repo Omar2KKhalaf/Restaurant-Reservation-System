@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ShowPrevController">
+   <children>
+      <ListView fx:id="view1" layoutX="45.0" layoutY="36.0" prefHeight="251.0" prefWidth="514.0">
+         <effect>
+            <DropShadow height="71.41" radius="36.6875" spread="0.14" width="77.34" />
+         </effect></ListView>
+      <Button layoutX="499.0" layoutY="354.0" mnemonicParsing="false" onMousePressed="#buttonPressed" text="Logout" textFill="#2807ff">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font></Button>
+   </children>
+   <effect>
+      <InnerShadow choke="0.17" height="56.58" radius="30.015" width="65.48" />
+   </effect>
+</AnchorPane>
